@@ -1,0 +1,198 @@
+[33mcommit 6c439e4df65ec5a0f7ac1ed2795429ab485d496e[m
+Merge: bb6d82e e22e587
+Author: euriguerrero15-hub <euriguerrero15@gmail.com>
+Date:   Wed Jun 3 17:34:21 2026 -0400
+
+    Merge branch 'main' of https://github.com/EG26-LTE/Euri_Guerrero_PM_2026_C2
+
+ .gitignore                                         | 429 [32m+++++++++++++++++++++[m
+ LICENSE                                            |  21 [32m+[m
+ README.md                                          |   2 [32m+[m
+ .../Codigo de BubleSort/BubleSort/BubleSort.cbp    |  39 [32m++[m
+ .../Codigo de BubleSort/BubleSort/BubleSort.depend |   6 [32m+[m
+ .../Codigo de BubleSort/BubleSort/BubleSort.layout |  10 [32m+[m
+ .../BubleSort/bin/Debug/BubleSort.exe              | Bin [31m0[m -> [32m66902[m bytes
+ Tarea 2/Codigo de BubleSort/BubleSort/main.c       |  51 [32m+++[m
+ .../Codigo de BubleSort/BubleSort/obj/Debug/main.o | Bin [31m0[m -> [32m4851[m bytes
+ Tarea 2/Diagramas de flujo Cap. 2.pdf              | Bin [31m0[m -> [32m768506[m bytes
+ .../Programa 2.1/bin/Debug/Programa 2.1.exe        | Bin [31m0[m -> [32m65655[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.1/main.c  |  11 [32m+[m
+ .../Ejercicios Capitulo 2/Programa 2.1/main.exe    | Bin [31m0[m -> [32m64927[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.1/main.o  | Bin [31m0[m -> [32m1140[m bytes
+ .../Programa 2.1/obj/Debug/main.o                  | Bin [31m0[m -> [32m2959[m bytes
+ .../Programa 2.10/Programa 2.10.cbp                |  41 [32m++[m
+ .../Programa 2.10/Programa 2.10.depend             |   6 [32m+[m
+ .../Programa 2.10/Programa 2.10.layout             |  10 [32m+[m
+ .../Programa 2.10/bin/Debug/Programa 2.10.exe      | Bin [31m0[m -> [32m65315[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.10/main.c |  17 [32m+[m
+ .../Programa 2.10/obj/Debug/main.o                 | Bin [31m0[m -> [32m3189[m bytes
+ .../Programa 2.11/Programa 2.11.cbp                |  39 [32m++[m
+ .../Programa 2.11/Programa 2.11.layout             |  10 [32m+[m
+ .../Programa 2.11/bin/Debug/Programa 2.11.exe      | Bin [31m0[m -> [32m65655[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.11/main.c |  15 [32m+[m
+ .../Programa 2.11/obj/Debug/main.o                 | Bin [31m0[m -> [32m3223[m bytes
+ .../Programa 2.12/Programa 2.12.cbp                |  39 [32m++[m
+ .../Programa 2.12/Programa 2.12.depend             |   6 [32m+[m
+ .../Programa 2.12/Programa 2.12.layout             |  10 [32m+[m
+ .../Programa 2.12/bin/Debug/Programa 2.12.exe      | Bin [31m0[m -> [32m66339[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.12/main.c |  19 [32m+[m
+ .../Programa 2.12/obj/Debug/main.o                 | Bin [31m0[m -> [32m3519[m bytes
+ .../Programa 2.13/Programa 2.13.cbp                |  39 [32m++[m
+ .../Programa 2.13/Programa 2.13.layout             |  10 [32m+[m
+ .../Programa 2.13/bin/Debug/Programa 2.13.exe      | Bin [31m0[m -> [32m66339[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.13/main.c |  22 [32m++[m
+ .../Programa 2.13/obj/Debug/main.o                 | Bin [31m0[m -> [32m3525[m bytes
+ .../Programa 2.14/Programa 2.14.cbp                |  39 [32m++[m
+ .../Programa 2.14/Programa 2.14.depend             |   5 [32m+[m
+ .../Programa 2.14/Programa 2.14.layout             |  10 [32m+[m
+ .../Programa 2.14/bin/Debug/Programa 2.14.exe      | Bin [31m0[m -> [32m66167[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.14/main.c |  27 [32m++[m
+ .../Programa 2.14/obj/Debug/main.o                 | Bin [31m0[m -> [32m4257[m bytes
+ .../Programa 2.15/Programa 2.15.cbp                |  39 [32m++[m
+ .../Programa 2.15/Programa 2.15.layout             |  10 [32m+[m
+ .../Programa 2.15/bin/Debug/Programa 2.15.exe      | Bin [31m0[m -> [32m66167[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.15/main.c |  29 [32m++[m
+ .../Programa 2.15/obj/Debug/main.o                 | Bin [31m0[m -> [32m3555[m bytes
+ .../Programa 2.16/Programa 2.16.cbp                |  39 [32m++[m
+ .../Programa 2.16/Programa 2.16.layout             |  10 [32m+[m
+ .../Programa 2.16/bin/Debug/Programa 2.16.exe      | Bin [31m0[m -> [32m65655[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.16/main.c |  29 [32m++[m
+ .../Programa 2.16/obj/Debug/main.o                 | Bin [31m0[m -> [32m3333[m bytes
+ .../Programa 2.2/Programa 2.2/Programa 2.2.cbp     |  41 [32m++[m
+ .../Programa 2.2/Programa 2.2/Programa 2.2.depend  |   5 [32m+[m
+ .../Programa 2.2/Programa 2.2/Programa 2.2.layout  |  10 [32m+[m
+ .../Programa 2.2/bin/Debug/Programa 2.2.exe        | Bin [31m0[m -> [32m65655[m bytes
+ .../Programa 2.2/Programa 2.2/main.c               |  14 [32m+[m
+ .../Programa 2.2/Programa 2.2/obj/Debug/main.o     | Bin [31m0[m -> [32m3125[m bytes
+ .../Programa 2.3/Programa 2.3.cbp                  |  39 [32m++[m
+ .../Programa 2.3/Programa 2.3.layout               |   5 [32m+[m
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.3/main.c  |  13 [32m+[m
+ .../Ejercicios Capitulo 2/Programa 2.3/main.exe    | Bin [31m0[m -> [32m64927[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.3/main.o  | Bin [31m0[m -> [32m1114[m bytes
+ .../Programa 2.4/Programa 2.4.cbp                  |  39 [32m++[m
+ .../Programa 2.4/Programa 2.4.depend               |   5 [32m+[m
+ .../Programa 2.4/Programa 2.4.layout               |  10 [32m+[m
+ .../Programa 2.4/bin/Debug/Programa 2.4.exe        | Bin [31m0[m -> [32m65655[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.4/main.c  |  14 [32m+[m
+ .../Programa 2.4/obj/Debug/main.o                  | Bin [31m0[m -> [32m3135[m bytes
+ .../Programa 2.5/Programa 2.5.cbp                  |  41 [32m++[m
+ .../Programa 2.5/Programa 2.5.depend               |   6 [32m+[m
+ .../Programa 2.5/Programa 2.5.layout               |  10 [32m+[m
+ .../Programa 2.5/bin/Debug/Programa 2.5.exe        | Bin [31m0[m -> [32m65827[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.5/main.c  |  25 [32m++[m
+ .../Programa 2.5/obj/Debug/main.o                  | Bin [31m0[m -> [32m3313[m bytes
+ .../Programa 2.6/Programa 2.6.cbp                  |  41 [32m++[m
+ .../Programa 2.6/Programa 2.6.depend               |   5 [32m+[m
+ .../Programa 2.6/Programa 2.6.layout               |  10 [32m+[m
+ .../Programa 2.6/bin/Debug/Programa 2.6.exe        | Bin [31m0[m -> [32m66167[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.6/main.c  |  23 [32m++[m
+ .../Programa 2.6/obj/Debug/main.o                  | Bin [31m0[m -> [32m3453[m bytes
+ .../Programa 2.7/Programa 2.7.cbp                  |  39 [32m++[m
+ .../Programa 2.7/Programa 2.7.depend               |   5 [32m+[m
+ .../Programa 2.7/Programa 2.7.layout               |  10 [32m+[m
+ .../Programa 2.7/bin/Debug/Programa 2.exe          | Bin [31m0[m -> [32m66679[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.7/main.c  |  25 [32m++[m
+ .../Programa 2.7/obj/Debug/main.o                  | Bin [31m0[m -> [32m4137[m bytes
+ .../Programa 2.8/Programa 2.8.cbp                  |  39 [32m++[m
+ .../Programa 2.8/Programa 2.8.depend               |   5 [32m+[m
+ .../Programa 2.8/Programa 2.8.layout               |  10 [32m+[m
+ .../Programa 2.8/bin/Debug/Programa 2.8.exe        | Bin [31m0[m -> [32m66167[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.8/main.c  |  32 [32m++[m
+ .../Programa 2.8/obj/Debug/main.o                  | Bin [31m0[m -> [32m3957[m bytes
+ .../Programa 2.9/Programa 2.9.cbp                  |  39 [32m++[m
+ .../Programa 2.9/Programa 2.9.depend               |   6 [32m+[m
+ .../Programa 2.9/Programa 2.9.layout               |  10 [32m+[m
+ .../Programa 2.9/bin/Debug/Programa 2.9.exe        | Bin [31m0[m -> [32m66339[m bytes
+ Tarea 2/Ejercicios Capitulo 2/Programa 2.9/main.c  |  14 [32m+[m
+ .../Programa 2.9/obj/Debug/main.o                  | Bin [31m0[m -> [32m3449[m bytes
+ .../Progama 3.8/Progama 3.8.cbp                    |  39 [32m++[m
+ .../Progama 3.8/Progama 3.8.depend                 |   5 [32m+[m
+ .../Progama 3.8/Progama 3.8.layout                 |  10 [32m+[m
+ .../Progama 3.8/bin/Debug/Progama 3.8.exe          | Bin [31m0[m -> [32m65655[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Progama 3.8/main.c   |  19 [32m+[m
+ .../Progama 3.8/obj/Debug/main.o                   | Bin [31m0[m -> [32m3133[m bytes
+ .../Programa 3.1/Programa 3.1.cbp                  |  39 [32m++[m
+ .../Programa 3.1/Programa 3.1.layout               |  10 [32m+[m
+ .../Programa 3.1/bin/Debug/Programa 3.1.exe        | Bin [31m0[m -> [32m65655[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.1/main.c  |  16 [32m+[m
+ .../Programa 3.1/obj/Debug/main.o                  | Bin [31m0[m -> [32m3109[m bytes
+ .../Programa 3.10/Programa 3.10.cbp                |  39 [32m++[m
+ .../Programa 3.10/Programa 3.10.depend             |   6 [32m+[m
+ .../Programa 3.10/Programa 3.10.layout             |  10 [32m+[m
+ .../Programa 3.10/bin/Debug/Programa 3.10.exe      | Bin [31m0[m -> [32m66851[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.10/main.c |  30 [32m++[m
+ .../Programa 3.10/obj/Debug/main.o                 | Bin [31m0[m -> [32m3709[m bytes
+ .../Programa 3.11/Programa 3.11.cbp                |  39 [32m++[m
+ .../Programa 3.11/Programa 3.11.layout             |  10 [32m+[m
+ .../Programa 3.11/bin/Debug/Programa 3.11.exe      | Bin [31m0[m -> [32m66679[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.11/main.c |  33 [32m++[m
+ .../Programa 3.11/obj/Debug/main.o                 | Bin [31m0[m -> [32m3653[m bytes
+ .../Programa 3.12/Programa 3.12.cbp                |  39 [32m++[m
+ .../Programa 3.12/Programa 3.12.depend             |   6 [32m+[m
+ .../Programa 3.12/Programa 3.12.layout             |  10 [32m+[m
+ .../Programa 3.12/bin/Debug/Programa 3.12.exe      | Bin [31m0[m -> [32m66000[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.12/main.c |  25 [32m++[m
+ .../Programa 3.12/obj/Debug/main.o                 | Bin [31m0[m -> [32m3427[m bytes
+ .../Programa 3.13/Programa 3.13.cbp                |  39 [32m++[m
+ .../Programa 3.13/Programa 3.13.depend             |   5 [32m+[m
+ .../Programa 3.13/Programa 3.13.layout             |  10 [32m+[m
+ .../Programa 3.13/bin/Debug/Programa 3.13.exe      | Bin [31m0[m -> [32m64099[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.13/main.c |  15 [32m+[m
+ .../Programa 3.13/obj/Debug/main.o                 | Bin [31m0[m -> [32m2967[m bytes
+ .../Programa 3.14/Programa 3.14.cbp                |  39 [32m++[m
+ .../Programa 3.14/Programa 3.14.layout             |  10 [32m+[m
+ .../Programa 3.14/bin/Debug/Programa 3.14.exe      | Bin [31m0[m -> [32m67191[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.14/main.c |  38 [32m++[m
+ .../Programa 3.14/obj/Debug/main.o                 | Bin [31m0[m -> [32m4709[m bytes
+ .../Programa 3.15/Programa 3.15.cbp                |  41 [32m++[m
+ .../Programa 3.15/Programa 3.15.depend             |   6 [32m+[m
+ .../Programa 3.15/Programa 3.15.layout             |  10 [32m+[m
+ .../Programa 3.15/bin/Debug/Programa 3.15.exe      | Bin [31m0[m -> [32m64099[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.15/main.c |  27 [32m++[m
+ .../Programa 3.15/obj/Debug/main.o                 | Bin [31m0[m -> [32m3187[m bytes
+ .../Programa 3.16/Programa 3.16.cbp                |  41 [32m++[m
+ .../Programa 3.16/Programa 3.16.layout             |  10 [32m+[m
+ .../Programa 3.16/bin/Debug/Programa 3.16.exe      | Bin [31m0[m -> [32m66679[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.16/main.c |  36 [32m++[m
+ .../Programa 3.16/obj/Debug/main.o                 | Bin [31m0[m -> [32m3861[m bytes
+ .../Programa 3.17/Programa 3.17.cbp                |  39 [32m++[m
+ .../Programa 3.17/Programa 3.17.layout             |  10 [32m+[m
+ .../Programa 3.17/bin/Debug/Programa 3.17.exe      | Bin [31m0[m -> [32m65655[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.17/main.c |  22 [32m++[m
+ .../Programa 3.17/obj/Debug/main.o                 | Bin [31m0[m -> [32m3265[m bytes
+ .../Programa 3.2/Programa 3.2.cbp                  |  39 [32m++[m
+ .../Programa 3.2/Programa 3.2.layout               |  10 [32m+[m
+ .../Programa 3.2/bin/Debug/Programa 3.2.exe        | Bin [31m0[m -> [32m65655[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.2/main.c  |  18 [32m+[m
+ .../Programa 3.2/obj/Debug/main.o                  | Bin [31m0[m -> [32m3169[m bytes
+ .../Programa 3.3/Programa 3.3.cbp                  |  39 [32m++[m
+ .../Programa 3.3/Programa 3.3.layout               |  10 [32m+[m
+ .../Programa 3.3/bin/Debug/Programa 3.3.exe        | Bin [31m0[m -> [32m65655[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.3/main.c  |  17 [32m+[m
+ .../Programa 3.3/obj/Debug/main.o                  | Bin [31m0[m -> [32m3177[m bytes
+ .../Programa 3.4/Programa 3.4.cbp                  |  39 [32m++[m
+ .../Programa 3.4/Programa 3.4.layout               |  10 [32m+[m
+ .../Programa 3.4/bin/Debug/Programa 3.4.exe        | Bin [31m0[m -> [32m65827[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.4/main.c  |  20 [32m+[m
+ .../Programa 3.4/obj/Debug/main.o                  | Bin [31m0[m -> [32m3381[m bytes
+ .../Programa 3.5/Programa 3.5.cbp                  |  39 [32m++[m
+ .../Programa 3.5/Programa 3.5.layout               |  10 [32m+[m
+ .../Programa 3.5/bin/Debug/Programa 3.5.exe        | Bin [31m0[m -> [32m65655[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.5/main.c  |  17 [32m+[m
+ .../Programa 3.5/obj/Debug/main.o                  | Bin [31m0[m -> [32m3205[m bytes
+ .../Programa 3.6/Programa 3.6.cbp                  |  39 [32m++[m
+ .../Programa 3.6/Programa 3.6.layout               |  10 [32m+[m
+ .../Programa 3.6/bin/Debug/Programa 3.6.exe        | Bin [31m0[m -> [32m65655[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.6/main.c  |  20 [32m+[m
+ .../Programa 3.6/obj/Debug/main.o                  | Bin [31m0[m -> [32m3329[m bytes
+ .../Programa 3.7/Programa 3.7.cbp                  |  39 [32m++[m
+ .../Programa 3.7/Programa 3.7.layout               |  10 [32m+[m
+ .../Programa 3.7/bin/Debug/Programa 3.7.exe        | Bin [31m0[m -> [32m65655[m bytes
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.7/main.c  |  22 [32m++[m
+ .../Programa 3.7/obj/Debug/main.o                  | Bin [31m0[m -> [32m3313[m bytes
+ .../Programa 3.9/Programa 3.9.cbp                  |  39 [32m++[m
+ .../Programa 3.9/Programa 3.9.layout               |  10 [32m+[m
+ Tarea 2/Ejercicios Capitulo 3/Programa 3.9/main.c  |  24 [32m++[m
+ Tarea 2/Resumen Cap.4 PM.pdf                       | Bin [31m0[m -> [32m1619618[m bytes
+ Tarea1/Notas.pdf                                   | Bin [31m0[m -> [32m1305831[m bytes
+ 190 files changed, 2943 insertions(+)

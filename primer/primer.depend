@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1778791540 source:c:\users\usergpc\desktop\pm\primer\main.c
+	<stdio.h>
+	<stdlib.h>
+
