@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1783015918 source:c:\users\usergpc\desktop\pm ad\tarea 6\programa para leer json\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

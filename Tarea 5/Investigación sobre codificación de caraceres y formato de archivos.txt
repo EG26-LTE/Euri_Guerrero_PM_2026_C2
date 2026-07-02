@@ -1,0 +1,39 @@
+Codificación de Caracteres
+
+
+ASCII
+
+ASCII (American Standard Code for Information Interchange) es uno de los primeros estándares de codificación de caracteres utilizados en la informática. Fue creado para que las computadoras pudieran representar letras, números, símbolos y caracteres de control como el salto de línea o la tecla Tab. Utiliza 7 bits para representar un total de 128 caracteres, por lo que es suficiente para el idioma inglés, pero no incluye muchos caracteres especiales de otros idiomas, como la ñ o las vocales acentuadas. A pesar de sus limitaciones, sirvió como base para los sistemas de codificación modernos.
+
+
+
+UTF-8
+
+UTF-8 (Unicode Transformation Format de 8 bits) es el sistema de codificación de caracteres más utilizado en la actualidad. Forma parte del estándar Unicode, que busca representar los caracteres de prácticamente todos los idiomas del mundo. UTF-8 utiliza entre 1 y 4 bytes por carácter, lo que permite ahorrar espacio en textos sencillos y, al mismo tiempo, representar caracteres especiales, símbolos y emojis. Además, es compatible con ASCII, por lo que los primeros 128 caracteres son exactamente los mismos. Gracias a su flexibilidad y eficiencia, es el formato más utilizado en páginas web, archivos JSON y aplicaciones modernas.
+
+
+
+UTF-16
+
+UTF-16 también pertenece al estándar Unicode y permite representar una gran cantidad de caracteres de diferentes idiomas. A diferencia de UTF-8, normalmente utiliza 2 bytes por carácter, aunque algunos caracteres especiales requieren 4 bytes. Este formato es ampliamente utilizado en sistemas Windows y en lenguajes de programación como Java y C#. Su principal ventaja es que maneja de forma eficiente idiomas que contienen una gran cantidad de caracteres, como el chino o el japonés, aunque suele generar archivos de mayor tamaño que UTF-8 en textos comunes.
+
+
+
+Formatos de Archivos
+
+
+JSON
+
+JSON (JavaScript Object Notation) es un formato de archivo diseñado para almacenar e intercambiar datos de manera sencilla. Organiza la información mediante pares de clave y valor, lo que facilita su lectura tanto para las personas como para los programas. Debido a su simplicidad y rapidez, es el formato más utilizado en el intercambio de información entre aplicaciones y servidores a través de Internet. Además, es compatible con la mayoría de los lenguajes de programación y ocupa poco espacio en comparación con otros formatos similares.
+
+
+
+XML
+
+XML (eXtensible Markup Language) es un lenguaje de marcado utilizado para almacenar, organizar y transportar información. Los datos se representan mediante etiquetas definidas por el usuario, lo que permite crear estructuras ordenadas y fáciles de interpretar. XML es muy útil cuando se necesita manejar información compleja o validar el contenido de un archivo. Aunque suele ocupar más espacio y ser más lento de procesar que JSON, continúa utilizándose en aplicaciones empresariales, documentos de configuración y algunos servicios web.
+
+
+
+CSV
+
+CSV (Comma-Separated Values) es un formato de archivo utilizado para almacenar datos en forma de tabla. En este tipo de archivo, cada línea representa un registro y los valores se separan normalmente mediante comas, aunque también pueden utilizarse otros separadores como el punto y coma. Es un formato muy sencillo, ligero y compatible con programas como Microsoft Excel, LibreOffice Calc y Google Sheets. Debido a su facilidad de uso, es ampliamente empleado para importar y exportar datos entre hojas de cálculo, bases de datos y diferentes aplicaciones. Cabe destacar que la sigla correcta es CSV, no CVS.

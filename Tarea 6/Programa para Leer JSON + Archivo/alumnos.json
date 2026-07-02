@@ -1,0 +1,64 @@
+{
+    "alumnos": [
+        {
+            "nombre": "Juanito",
+            "apellido": "Pereira",
+            "promedio": 8.5,
+            "materia": "Matematicas"
+        },
+        {
+            "nombre": "Maria",
+            "apellido": "Gomez",
+            "promedio": 9.2,
+            "materia": "Fisica"
+        },
+        {
+            "nombre": "Carlos",
+            "apellido": "Pichardo",
+            "promedio": 10,
+            "materia": "Programación"
+        },
+        {
+            "nombre": "Ana",
+            "apellido": "Mariana",
+            "promedio": 8.9,
+            "materia": "Historia"
+        },
+        {
+            "nombre": "Luis",
+            "apellido": "Abinader",
+            "promedio": 1.5,
+            "materia": "Administración"
+        },
+        {
+            "nombre": "Laura",
+            "apellido": "Sanchez",
+            "promedio": 9.5,
+            "materia": "Biologia"
+        },
+        {
+            "nombre": "Pedro",
+            "apellido": "Pica Piedra",
+            "promedio": 7.2,
+            "materia": "Fisica"
+        },
+        {
+            "nombre": "Sofia",
+            "apellido": "Valiano",
+            "promedio": 8.0,
+            "materia": "Quimica"
+        },
+        {
+            "nombre": "Diego",
+            "apellido": "Almurcio",
+            "promedio": 7.5,
+            "materia": "Historia"
+        },
+        {
+            "nombre": "Elena",
+            "apellido": "Nito",
+            "promedio": 9.0,
+            "materia": "Biologia"
+        }
+    ]
+}

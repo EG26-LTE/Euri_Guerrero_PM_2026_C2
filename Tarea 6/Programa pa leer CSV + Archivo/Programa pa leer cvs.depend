@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1783016373 source:c:\users\usergpc\desktop\pm ad\tarea 6\programa pa leer cvs\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
