@@ -1,0 +1,13 @@
+{
+  "gas_premium": 290.10,
+  "gas_regular": 274.50,
+  "diesel_optimo": 239.10,
+  "diesel_regular": 221.60,
+  "aceite_sintetico": 3500.00,
+  "aceite_semisintetico": 2500.00,
+  "aceite_mineral": 1500.00,
+  "precio_neumaticos": 8500.00,
+  "precio_aceite_trans": 4000.00,
+  "precio_aceite_dif": 3000.00,
+  "precio_bandas_freno": 2500.00
+}
