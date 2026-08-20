@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1787244422 source:c:\users\usergpc\desktop\pm ad\evaluar-programa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<dirent.h>
+	"cJSON.h"
+
+1786654169 c:\users\usergpc\desktop\pm ad\evaluar-programa\cjson.h
+	<stddef.h>
+
+1786654094 source:c:\users\usergpc\desktop\pm ad\evaluar-programa\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<limits.h>
+	<ctype.h>
+	<float.h>
+	<locale.h>
+	"cJSON.h"
+

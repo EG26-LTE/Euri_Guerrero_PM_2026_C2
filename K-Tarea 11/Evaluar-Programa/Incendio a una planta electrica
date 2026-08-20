@@ -1,0 +1,20 @@
+{
+	"nombre":	"Archivo Independiente",
+	"industria":	"Varios",
+	"descripcion":	"Contenedor de riesgos individuales por archivo",
+	"riesgos":	[{
+			"nombre":	"Incendio a una planta electrica",
+			"descripcion":	"Incendio en la unica planta electrica de la institucion",
+			"funcion":	5,
+			"sustitucion":	3,
+			"profundidad":	2,
+			"extension":	1,
+			"agresion":	3,
+			"vulnerabilidad":	3,
+			"importancia":	15,
+			"danios":	2,
+			"caracter":	17,
+			"probabilidad":	9,
+			"cuantificacion":	153
+		}]
+}

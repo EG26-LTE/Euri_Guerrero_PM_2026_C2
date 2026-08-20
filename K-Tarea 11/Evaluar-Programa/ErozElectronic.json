@@ -1,0 +1,20 @@
+{
+	"nombre":	"ErozElectronic",
+	"industria":	"Electronica Automotriz",
+	"descripcion":	"Empresa dedicada a la comercializacion, cambio y reparacion de componentes electronicos de vehiculos.",
+	"riesgos":	[{
+			"nombre":	"Robo",
+			"descripcion":	"Robo de articulos",
+			"funcion":	3,
+			"sustitucion":	3,
+			"profundidad":	4,
+			"extension":	1,
+			"agresion":	2,
+			"vulnerabilidad":	4,
+			"importancia":	9,
+			"danios":	4,
+			"caracter":	13,
+			"probabilidad":	8,
+			"cuantificacion":	104
+		}]
+}
