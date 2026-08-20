@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1779991873 source:c:\users\usergpc\desktop\pm\codigo de bublesort\bublesort\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
